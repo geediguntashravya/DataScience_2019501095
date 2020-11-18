@@ -1,0 +1,7 @@
+setwd("C:/Users/Shravya/OneDrive/Desktop/DataScience_2019501095/DataMining/DM Assignment2")
+getwd()
+data<-read.csv("myfirstdata.csv",header=FALSE)
+str(data)
+head(data)
+plot(data[,1])
+plot(data[,2])
